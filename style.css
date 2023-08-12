@@ -5,49 +5,71 @@
 
 }
 
+/*card h1*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Pacifico&display=swap');
+/*card h2*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&display=swap');
+/*h3*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Edu+SA+Beginner&family=Indie+Flower&family=Pacifico&family=Preahvihear&family=Shadows+Into+Light&display=swap');
+/*p*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Edu+SA+Beginner&family=Indie+Flower&family=Libre+Baskerville&family=Pacifico&family=Preahvihear&family=Shadows+Into+Light&display=swap');
+
+
 main {
- margin: 1px;
+    margin: 1px;
+   
+   }
 
+body {
+    padding: 1em;
 }
 
-body{
-    background-color: #fcea90;
-  
+
+/*section1*/
+#section-1{
+    margin: auto;
+
+    
 }
+
 .card {
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 14px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #fff;
-    max-width: 380px;
-    margin: 10px auto;
-    padding: 10px;
+    max-width: 400px;
+    margin: 5px auto;
     text-align: center;
 }
 
 /* Heading style */
 .card h1 {
     font-size: 35px;
-    margin-top: 6px;
+    margin-top: 3px;
     margin-bottom: 0%;
+    color:#112d4e;
+    font-family: 'Pacifico', cursive;
 }
 .card h2 {
-    font-size:27px;
+    font-size:25px;
     margin-top: 2px;
     margin-bottom: 8px;
-    
+    color:#283c63;
+    font-family: 'Edu SA Beginner', cursive;
 }
 
-/* Content style */
+.card h3{
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .card p {
     font-size: 18px;
     color: #555;
-    margin-top: 3px;
+    margin-top: 0px;
     margin-bottom: 3px;
 }
 
-/* Image style */
 .card img {
     max-width: 100%;
     height: auto;
@@ -55,20 +77,37 @@ body{
     margin-top: 10px;
 }
 
-#section-1{
-    margin: auto;
+a  {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 20px;
+    color: #4733ff;
+    text-decoration:none;
 }
 
-.card-2{
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color:#fff1c1;
-    max-width: 1000px;
-    margin: 0 auto;
-    
+a:hover {
+    color: #f81313; /* change the color when it in hover mode */
+    text-decoration:underline ;/*move the underline*/
+    vertical-align: super;
 }
+
+
+
+button{
+    padding: 6px 10px;
+    margin: 2px;
+    font-size: 14px;
+    background-color:#f6c7c7;
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+
+/*section2*/
+
 #section-2 {
 
     align-items: center;
@@ -76,8 +115,9 @@ body{
     height: auto;
     border: 1px dashed #666;
     border-radius: 8px;
-    max-width: 1300px;
-    margin: 10px;
+    max-width: 1000px;
+    min-width: 400;
+    margin: 10px auto;
     background-color: #ffe0e0;
     box-sizing: border-box;
 }
@@ -106,3 +146,160 @@ body{
 .container p{
     line-height: 1.8;
 }
+
+
+
+
+
+/*section3*/
+
+#section-3 h2{
+    text-align: center;
+}
+
+.card4, .card5 {
+    border: 1px solid #ccc;
+  
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 1300px;
+    margin: 25px;
+    display: flex;
+    
+  
+}
+
+
+.left-layer {
+   flex:1;
+   border-radius: 6px 0px 0px 6px;
+    background-color: #3498db; /* 左側顏色 */
+    height: auto;
+}
+
+
+.right-layer {
+    flex: 2;
+    border-radius: 0px 6px 6px 0px;
+    padding: 20px;
+    background-color: #f1c40f; /* 右側顏色 */
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section4*/
+
+.contact-form h2{
+    margin-top:5em;
+    text-align: center;
+}
+
+form {
+    margin-top: 3em;
+    padding: 2em;
+    border: 3px dashed #BDBDBD;
+    max-width: 800px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+}
+ 
+form label {
+    font-family: 'Lugrasimo', cursive;
+    font-size: 1.5em;
+}
+ 
+input,
+textarea {
+    width: 100%;
+    padding: 0.3em;
+    font-size: 1.5em;
+    border: 1px solid rgb(18, 117, 216);
+    border-radius: 0.25em;
+}
+ 
+input:focus,
+textarea:focus {
+    outline: 3px solid lightskyblue;
+}
+ 
+#hourlyRateContainer{
+    justify-content: center;
+    width: 200px;
+    block-size: auto;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+/*hidden default radio button*/
+.radio-input {
+    display: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 150px;
+    background-color: #757575;
+    color:aliceblue;
+    text-align: center;
+    border: 1px solid #757560;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    width: 153px;
+    background-color:#ea5455;
+    color: #ffd460;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+.custom-radio {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-right: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.radio-input:checked+.custom-radio {
+    background-color: #333;
+}
+
+.radio-input:checked+.custom-radio::after {
+    content: '\2713';
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
+footer{
+    margin: 3em 0 0 0;
+    text-align: center;
+}
+
+
+
