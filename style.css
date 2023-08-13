@@ -330,3 +330,78 @@ footer{
 }
 
 
+/* Media query for screens up to 768px, suitable for mobile devices */
+@media screen and (max-width: 768px) {
+    /* Adjust general styles for mobile devices */
+    
+    /* Body styles */
+    body {
+        font-size: 14px;
+        padding: 10px; /* Add some padding for better readability */
+    }
+
+    /* Section 1 styles */
+    #section-1 {
+        margin: 2em auto; /* Adjust margin for better spacing */
+    }
+    
+    /* Card styles */
+    .card {
+        padding: 10px; /* Reduce padding for better fit */
+        margin: 10px auto; /* Adjust margin for better spacing */
+    }
+    .card h1 {
+        font-size: 28px; /* Adjust font size for headings */
+    }
+    .card h2 {
+        font-size: 20px; /* Adjust font size for subheadings */
+    }
+    .card p {
+        font-size: 16px; /* Adjust font size for paragraphs */
+    }
+    
+    /* Section 2 styles */
+    #section-2 {
+        margin: 3em auto; /* Adjust margin for better spacing */
+    }
+    .container {
+        width: 100%; /* Make container full width for mobile */
+        float: none; /* Remove float for better responsiveness */
+        text-align: center; /* Center align for mobile */
+    }
+    .text {
+        width: 100%; /* Make text full width for mobile */
+        float: none; /* Remove float for better responsiveness */
+        padding: 0; /* Remove padding for better fit */
+    }
+    
+    /* Section 3 styles */
+    #section-3 {
+        margin: 3em auto; /* Adjust margin for better spacing */
+    }
+    .card4, .card5 {
+        margin: 10px auto; /* Adjust margin for better spacing */
+    }
+    .left-layer, .right-layer {
+        padding: 10px; /* Reduce padding for better fit */
+        font-size: 18px; /* Adjust font size */
+    }
+    
+    /* Section 4 styles */
+    .contact-form h2 {
+        margin-top: 3em; /* Adjust margin for better spacing */
+        font-size: 24px; /* Adjust font size */
+    }
+    form {
+        margin-top: 2em; /* Adjust margin for better spacing */
+        padding: 1em; /* Reduce padding for better fit */
+        min-width: auto; /* Remove min-width for better responsiveness */
+    }
+    input, textarea {
+        font-size: 14px; /* Adjust font size for inputs */
+        padding: 0.5em; /* Adjust padding for better fit */
+    }
+    input[type="submit"], input[type="reset"] {
+        width: auto; /* Remove fixed width for better responsiveness */
+    }
+}
