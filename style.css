@@ -340,6 +340,15 @@ footer{
         padding: 10px; /* Add some padding for better readability */
     }
 
+    .gradient-background {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom right, #ff9900, #ff6ddb);
+        text-align: center;
+        padding: 10px 0px;
+        box-sizing: border-box;
+      }
+      
     /* Section 1 styles */
     #section-1 {
         margin: 2em auto; /* Adjust margin for better spacing */
@@ -384,7 +393,7 @@ footer{
     }
     .left-layer, .right-layer {
         padding: 10px; /* Reduce padding for better fit */
-        font-size: 18px; /* Adjust font size */
+        font-size: 10px; /* Adjust font size */
     }
     
     /* Section 4 styles */
