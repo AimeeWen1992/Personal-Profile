@@ -4,25 +4,8 @@
 @media screen and (min-width: 401px){
 
 }
-
-/*card h1*/
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Pacifico&display=swap');
-/*card h2*/
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&display=swap');
-/*h3*/
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Edu+SA+Beginner&family=Indie+Flower&family=Pacifico&family=Preahvihear&family=Shadows+Into+Light&display=swap');
-/*p*/
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Edu+SA+Beginner&family=Indie+Flower&family=Libre+Baskerville&family=Pacifico&family=Preahvihear&family=Shadows+Into+Light&display=swap');
-
-
-main {
-    margin: 1px;
-   
-   }
-
-body {
-    padding: 1em;
-}
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 /*section1*/
@@ -32,13 +15,30 @@ body {
     
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background-color:cornsilk;
+}
+
+
+.gradient-background {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #ff9900, #ff6ddb);
+    text-align: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+  }
+  
+
 .card {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 14px 40px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #fff;
-    max-width: 400px;
+    max-width: 360px;
     margin: 5px auto;
     text-align: center;
 }
@@ -50,6 +50,7 @@ body {
     margin-bottom: 0%;
     color:#112d4e;
     font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px 3px #ababab;
 }
 .card h2 {
     font-size:25px;
@@ -57,6 +58,7 @@ body {
     margin-bottom: 8px;
     color:#283c63;
     font-family: 'Edu SA Beginner', cursive;
+    text-shadow: 3px 3px 3px #ababab;
 }
 
 .card h3{
@@ -68,6 +70,9 @@ body {
     color: #555;
     margin-top: 0px;
     margin-bottom: 3px;
+    font-family: "Sofia", sans-serif;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px #ababab;
 }
 
 .card img {
@@ -78,7 +83,7 @@ body {
 }
 
 a  {
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: "Sofia", sans-serif;
     font-size: 20px;
     color: #4733ff;
     text-decoration:none;
@@ -115,17 +120,20 @@ button{
     height: auto;
     border: 1px dashed #666;
     border-radius: 8px;
-    max-width: 1000px;
+    max-width: 1100px;
     min-width: 400;
-    margin: 10px auto;
-    background-color: #ffe0e0;
+    margin:  10em auto;
+    padding: 1px;
+    background-color: #fbeba3;
     box-sizing: border-box;
+    font-style: oblique;
 }
 
 .container{
 
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
     overflow: hidden;
     
 }
@@ -134,40 +142,50 @@ button{
     width: 50%;
     float: right;
     box-sizing: border-box;
-
- 
-   
-
+    padding: 5px;
 }
 
 .container h3{
     font-size: 25px;
+    font-style: normal;
+    font-family: Fantasy;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px #ababab;
+    
 }
 .container p{
     line-height: 1.8;
+    padding: 12px;
+    margin: 2px 3px;
 }
-
 
 
 
 
 /*section3*/
 
+#section-3{
+    margin-top:10em;
+}
+
 #section-3 h2{
     text-align: center;
+    font-family: Fantasy;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
 }
 
 .card4, .card5 {
+    text-align: center;
     border: 1px solid #ccc;
-  
     border-radius: 8px;
     padding: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    max-width: 1300px;
-    margin: 25px;
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: 25px auto;
     display: flex;
-    
+   
   
 }
 
@@ -175,27 +193,30 @@ button{
 .left-layer {
    flex:1;
    border-radius: 6px 0px 0px 6px;
-    background-color: #3498db; /* 左側顏色 */
+   padding: 20px 30px ;
+    background-color: #3498db;
     height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
 }
+
 
 
 .right-layer {
     flex: 2;
     border-radius: 0px 6px 6px 0px;
     padding: 20px;
-    background-color: #f1c40f; /* 右側顏色 */
-    color: #fff;
+    background-color: #f1c40f; 
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -205,6 +226,9 @@ button{
 .contact-form h2{
     margin-top:5em;
     text-align: center;
+    font-family: Fantasy;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
 }
 
 form {
@@ -219,11 +243,14 @@ form {
     grid-template-columns: 0.3fr 1fr;
     align-items: center;
     grid-gap: 20px;
+    background-color: rgb(250 246 218);
+    
 }
  
 form label {
-    font-family: 'Lugrasimo', cursive;
+    
     font-size: 1.5em;
+    font-family: "Trirong", serif;
 }
  
 input,
@@ -290,16 +317,60 @@ input[type="reset"]:hover {
 }
 
 .radio-input:checked+.custom-radio::after {
-    content: '\2713';
+    content: '\2713'; /*check*/
     color: white;
     font-size: 12px;
-    display: block;
 }
+
+#hourlyRateContainer{
+    font-family: Fantasy;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
 
 footer{
     margin: 3em 0 0 0;
+    padding: 3px;
     text-align: center;
+    background-color: #305886;
+    color: white;
 }
-
 
 
