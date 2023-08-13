@@ -35,7 +35,6 @@ radios.forEach((radio) => {
 function checkHourlyRate() {
   var hourlyRateInput = document.getElementById("hourlyRateContainer");
   var value = parseFloat(hourlyRateInput.value);
-
   if (value < 16) {
     alert("Illegal!!! Hourly rate should be at least $16/hr!!!!!!");
     hourlyRateInput.value = "";
