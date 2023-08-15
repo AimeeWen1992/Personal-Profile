@@ -335,7 +335,7 @@ footer{
 
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   
 
     body {
@@ -382,12 +382,7 @@ footer{
     #section-3 {
         display: none;
     }
-    .card4, .card5 {
-display: none ;
-    }
-    .left-layer, .right-layer {
-        display: none;
-    }
+ 
     
     /* Section 4 styles */
     .contact-form h2 {
