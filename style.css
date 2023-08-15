@@ -153,7 +153,11 @@ button{
     margin: 2px 3px;
 }
 
-
+.social_icon{
+    padding: 2px;
+    width: 30px;
+  
+}
 
 
 /*section3*/
@@ -329,6 +333,26 @@ footer{
     color: white;
 }
 
+
+
+@media only screen and (min-width: 1000px) {
+    html {
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+html {
+
+    background-color: rgb(92, 34, 61);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
 
 
 @media screen and (max-width: 768px) {
