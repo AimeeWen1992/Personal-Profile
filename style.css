@@ -335,23 +335,76 @@ footer{
 
 
 
-@media only screen and (min-width: 1000px) {
-    html {
+@media screen and (max-width: 768px) {
+  
 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    body {
+        font-size: 14px;
+        padding: 10px; 
     }
-  }
 
-@media only screen and (max-width: 600px) {
-html {
-
-    background-color: rgb(92, 34, 61);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
+    #section-1 {
+        margin: 2em auto; 
+    }
+    
+    /* Card styles */
+    .card {
+        padding: 10px; 
+        margin: 10px auto;
+    }
+    .card h1 {
+        font-size: 28px;
+    }
+    .card h2 {
+        font-size: 20px; 
+    }
+    .card p {
+        font-size: 16px;
+    }
+    
+    /* Section 2 styles */
+    #section-2 {
+        margin: 3em auto;
+    }
+    .container {
+        width: 100%; 
+        float: none;
+        text-align: center; 
+    }
+    .text {
+        width: 100%; 
+        float: none; 
+        padding: 0;
+    }
+    
+    /* Section 3 styles */
+    #section-3 {
+        display: none;
+    }
+    .card4, .card5 {
+display: none ;
+    }
+    .left-layer, .right-layer {
+        display: none;
+    }
+    
+    /* Section 4 styles */
+    .contact-form h2 {
+        margin-top: 3em; 
+        font-size: 24px;
+    }
+    form {
+        margin-top: 2em; 
+        padding: 1em;
+        min-width: auto;
+    }
+    input, textarea {
+        font-size: 14px; 
+        padding: 0.5em;
+    }
+    input[type="submit"], input[type="reset"] {
+        width: auto;
+    }
 }
-}
-
 
