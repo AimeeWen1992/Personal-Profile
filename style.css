@@ -162,6 +162,15 @@ button{
 
 /*section3*/
 
+html{
+
+    
+}
+
+.gradient-background{
+    background-color: none;
+}
+
 #section-3{
     margin-top:10em;
 }
