@@ -338,10 +338,6 @@ footer{
 @media (max-width: 768px) {
   
 
-    .gradient-background{
-        display: none;
-    }
-
     body {
         font-size: 14px;
         padding: 10px; 
